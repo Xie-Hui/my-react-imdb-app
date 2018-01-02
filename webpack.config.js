@@ -59,7 +59,7 @@ module.exports = {
       // File loader for image assets -> ADDED IN THIS STEP
       // We'll add only image extensions, but you can things like svgs, fonts and videos
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|woff2?|ttf|eot|svg)$/,
         use: [
           'file-loader',
         ],
