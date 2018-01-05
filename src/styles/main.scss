@@ -1,6 +1,9 @@
-//bootstrap
+// loads complete ionicons styles
+//@import 'ionicons-webpack';
+
 $icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../node_modules/sass-breakpoints-mixins/breakpoints.scss";
 
 //helpers
 @import "helpers/_animations.scss";
@@ -8,4 +11,7 @@ $icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
 
 //layout
 @import "layout/_body.scss";
+@import "layout/_logo.scss";
+@import "layout/_search.scss";
+@import "layout/_card.scss";
 @import "layout/_footer.scss";

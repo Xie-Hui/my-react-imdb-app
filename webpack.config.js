@@ -6,6 +6,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); // Import our plugin -
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin'); //  -> ADDED IN THIS STEP
 
+//const webpack = require('webpack')
+
 
 // Constant with our paths
 const paths = {

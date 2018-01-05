@@ -4,7 +4,11 @@
 $lightGrey: #fafafa;
 $midGrey: #ccc;
 $darkGrey: #343434;
-$limeGreen: #00FC87;
+//$limeGreen: #00FC87;
+
+$limeGreen: #03D176;
+
+
 
 // typography
 $lato: 'Lato', sans-serif;
@@ -15,3 +19,11 @@ $Ionicons:'Ionicons';
 .nopadding {
   padding: 0;
 }
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 544px,
+  md: 700px,
+  lg: 992px,
+  xl: 1200px
+) !default;
