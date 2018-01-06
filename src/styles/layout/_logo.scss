@@ -5,16 +5,5 @@
   max-width: 140px;
   margin: 0 auto;
   margin-bottom: 25px;
-  display: block;
-}
-
-/*a {
-  float: left;
-}*/
-// sm up
-@include media-breakpoint-up(sm) {
-  .logo {
-    display: inline-block;
-    margin-bottom: 0;
-  }
+  display: inline-block;
 }
